@@ -1,0 +1,69 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.header {
+  padding: 0px 20px;
+  background-color: #3367d6;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.ander {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+  height: 23px;
+  width: 90px;
+}
+.search_ {
+  margin-right: 30%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.search_button {
+  background-color: #2850a7;
+  height: 40px;
+  width: 50px;
+  border: 1px solid #ececec;
+}
+.icon {
+  height: 30px;
+  width: 30px;
+}
+.search_input {
+  padding-left: 10px;
+  background-color: #2850a7;
+  height: 40px;
+  width: 320px;
+  border: 1px solid #ececec;
+}
+.footer_container {
+  box-shadow: 5px 8px 10px #d3d3d3e1;
+  width: 90%;
+}
+.footer {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.no_history {
+  font-size: 20px;
+  color: #64748b;
+  margin-top: 30%;
+}
